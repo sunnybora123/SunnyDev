@@ -1,31 +1,41 @@
 import { useRef } from "react";
 import "./portfolio.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
+import {Link} from "react-router-dom";
 
 const items = [
   {
     id: 1,
     title: "React Commerce",
-    img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    img: "https://i.ibb.co/CWt8Jnp/Screenshot-2023-12-12-at-7-27-14-PM.png",
+    desc: "Designed and developed Cara, an E-commerce web application with a responsive interface. Implemented state management using Redux and Redux Persist for seamless user experience, ensuring persistence of user login and cart data on reload. User authentication is secured through JWT, and checkout is facilitated using Stripe. Tech stack includes React.js for the frontend, MongoDB for data storage, Express.js for a robust server, and Node.js for runtime efficiency. The result is a high-performance, secure, and user-friendly E-commerce platform.",
+    website:"https://cara-ae389.web.app/",
+    github:"https://github.com/sunnybora123/CARA",
+
   },
   {
     id: 2,
-    title: "Next.js Blog",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "Snapgram",
+    img: "https://i.ibb.co/njKJcbX/Screenshot-2023-12-13-at-5-02-14-PM.png",
+    desc: "Developed and designed a responsive social media application allowing users to upload, save, drag and drop, and like posts. Authentication is seamlessly handled through shadcn/ui and appwrite as a backend service tool, ensuring a secure user experience. The application utilizes a tech stack including HTML, CSS, Visual Studio Code, Node.js, JavaScript, and socket.io to provide a dynamic and interactive platform for users to engage with multimedia content.",
+    website:"https://snapgram-392d5.web.app/",
+    github:"https://github.com/sunnybora123/Snapgram",
   },
   {
     id: 3,
     title: "Vanilla JS App",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    img: "https://i.ibb.co/NZpNS3w/Screenshot-2023-12-13-at-5-05-31-PM.png",
+    desc: "I developed a vibrant E-commerce sneakers website using HTML, CSS, and JavaScript, ensuring an engaging and seamless shopping experience. The user-friendly interface allows customers to explore, select, and purchase their favorite sneakers with ease, creating an enjoyable online shopping journey.",
+    website:"https://sneakers-seven-delta.vercel.app/",
+    github:"https://github.com/sunnybora123/Sneakers",
   },
   {
     id: 4,
-    title: "Music App",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "Nimbus-Sync",
+    img: "https://i.ibb.co/y6CTdCy/Screenshot-2023-12-13-at-5-07-09-PM.png",
+    desc: "Developed and created a versatile application enabling users to upload and manage files efficiently. The project features comprehensive CRUD functionality, secure authentication through NextAuth middleware, and robust global state management using Zustand. Leveraging Firestore integration, users can confidently perform CRUD operations on various file types, ensuring a secure and seamless experience.",
+    website:"https://nimbus-sync.vercel.app/",
+    github:"https://github.com/sunnybora123/NimbusSync",
   },
 ];
 
@@ -48,7 +58,10 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{y}}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <button>See Demo</button>
+            
+            <a target="_blank" href={item.website} rel="noreferrer">Live Demo</a>
+            <a target="_blank" href={item.website} rel="noreferrer">Github</a>
+          
           </motion.div>
         </div>
       </div>

@@ -60,52 +60,60 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>🚀 Branding Excellence</h2>
+          <br/>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          Embark on a journey with me to explore the 
+          unique possibilities that can shape your brand identity. 
+          I specialize in delivering unparalleled branding experiences 
+          that resonate with your audience.
           </p>
+          <br/>
           <button>Go</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>🚀 Branding Beyond Boundaries</h2>
+          <br/>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          In the dynamic landscape of design and development, 
+          I am committed to generating impactful ideas that transcend 
+          conventional norms. Together, we can push the boundaries of 
+          your brand's potential.
           </p>
+          <br/>
           <button>Go</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>🚀 Branding for the Future</h2>
+          <br/>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          In a world driven by constant evolution, 
+          I am here to guide your brand towards a future 
+          where creativity and functionality converge seamlessly. 
+          Let's navigate the ever-changing digital landscape together.
           </p>
+          <br/>
           <button>Go</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>🚀 Branding with Purpose</h2>
+          <br/>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          Every project I undertake is fueled by a sense of purpose, 
+          ensuring that your brand not only grows but leaves a lasting 
+          impression. Let's collaborate to create a meaningful narrative for 
+          your brand.
           </p>
+          <br/>
           <button>Go</button>
         </motion.div>
       </motion.div>
